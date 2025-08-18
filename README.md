@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="726" height="380" alt="Screenshot from 2025-08-18 20-58-34" src="https://github.com/user-attachments/assets/e01f691a-7171-4b52-aef4-43fe8ea1a4ac" /><img width="723" height="371" alt="Screenshot from 2025-08-18 20-56-06" src="https://github.com/user-attachments/assets/68b3592a-f9f1-40e4-8746-0b55762d16ec" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -42,23 +42,33 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+<img width="600" height="183" alt="Screenshot from 2025-08-18 20-55-24" src="https://github.com/user-attachments/assets/4ddb8af6-43a6-45bb-ae5d-8f48c392bf0a" />
+
 
 
 
 cat < file2
 ## OUTPUT
+<img width="615" height="220" alt="Screenshot from 2025-08-18 20-55-33" src="https://github.com/user-attachments/assets/85bf8d0b-3b66-4a0d-8999-2036c5ac79a2" />
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+<img width="663" height="75" alt="Screenshot from 2025-08-18 20-55-49" src="https://github.com/user-attachments/assets/43aaa056-a333-4ed8-846f-8202fa84d099" />
+
+
  
 comm file1 file2
  ## OUTPUT
+ <img width="726" height="380" alt="Screenshot from 2025-08-18 20-58-34" src="https://github.com/user-attachments/assets/f23bc09a-cf49-47a9-8c63-5ba2ac7b25ca" />
+
 
  
 diff file1 file2
 ## OUTPUT
+<img width="723" height="371" alt="Screenshot from 2025-08-18 20-56-06" src="https://github.com/user-attachments/assets/63c5c00d-8224-43ef-8d71-024b517b7d07" />
 
 
 #Filters
