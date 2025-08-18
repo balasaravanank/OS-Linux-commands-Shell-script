@@ -198,15 +198,6 @@ egrep -w '(H|h)ell[a-z]' newfile
 <img width="818" height="86" alt="Screenshot from 2025-08-18 21-10-38" src="https://github.com/user-attachments/assets/5dd216ab-5663-454a-bd32-af1c1fad9d12" />
 
 
-
-
-egrep '(^hello)' newfile 
-## OUTPUT
-file:///home/balazeke/Pictures/Screenshots/Screenshot%20from%202025-08-18%2021-10-47.png
-
-
-
-
 egrep '(world$)' newfile 
 ## OUTPUT
 <img width="808" height="87" alt="Screenshot from 2025-08-18 21-10-57" src="https://github.com/user-attachments/assets/b104e492-210e-42cf-b520-99e9f65bb640" />
@@ -274,79 +265,108 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+<img width="793" height="246" alt="Screenshot from 2025-08-18 21-17-12" src="https://github.com/user-attachments/assets/9fba19a7-5e11-40e7-b7c9-0d5ae42cbc2a" />
+
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="742" height="66" alt="Screenshot from 2025-08-18 21-17-19" src="https://github.com/user-attachments/assets/e701f94d-c778-4e53-9bc6-6cf75c814846" />
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+<img width="753" height="47" alt="Screenshot from 2025-08-18 21-17-24" src="https://github.com/user-attachments/assets/a3a1adcb-97ac-4257-939d-aa21343f5ff5" />
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+<img width="745" height="248" alt="Screenshot from 2025-08-18 21-17-30" src="https://github.com/user-attachments/assets/cce054eb-272b-48b7-b1e2-fdaff1429692" />
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+<img width="776" height="255" alt="Screenshot from 2025-08-18 21-17-36" src="https://github.com/user-attachments/assets/132b5235-fad4-4b9a-a182-2f4c60bda928" />
+
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+<img width="783" height="255" alt="Screenshot from 2025-08-18 21-17-52" src="https://github.com/user-attachments/assets/25b8a226-86ee-446b-afce-1da6ccea82f0" />
+
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+<img width="735" height="166" alt="Screenshot from 2025-08-18 21-18-01" src="https://github.com/user-attachments/assets/36604027-2d6e-43b5-9768-ca8bb28a334a" />
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+<img width="768" height="120" alt="Screenshot from 2025-08-18 21-18-08" src="https://github.com/user-attachments/assets/0bb615cc-6b69-42f3-be5a-9140fdf6ab81" />
+
 
 
 
 seq 10 
 ## OUTPUT
+<img width="817" height="297" alt="Screenshot from 2025-08-18 21-18-34" src="https://github.com/user-attachments/assets/94c8c1a5-0475-40d6-ba10-a6446c201be8" />
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+<img width="675" height="120" alt="Screenshot from 2025-08-18 21-18-44" src="https://github.com/user-attachments/assets/9b7be62c-5b57-4b2f-bbff-42dcd2ea6615" />
+
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="675" height="120" alt="Screenshot from 2025-08-18 21-18-49" src="https://github.com/user-attachments/assets/82dd2d0c-cc20-4d0c-9684-b176ccc74ce3" />
+
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="681" height="153" alt="Screenshot from 2025-08-18 21-19-00" src="https://github.com/user-attachments/assets/e109220f-4e4c-4ce2-a29a-2bfd28ec44db" />
+
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="686" height="116" alt="Screenshot from 2025-08-18 21-19-05" src="https://github.com/user-attachments/assets/b9dac495-e100-4c74-9360-3f6a55924d43" />
+
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="745" height="120" alt="Screenshot from 2025-08-18 21-19-13" src="https://github.com/user-attachments/assets/64fecded-4e8e-4e5a-8b1b-ac857edba356" />
+
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+<img width="790" height="140" alt="Screenshot from 2025-08-18 21-19-21" src="https://github.com/user-attachments/assets/dbee3681-19f0-424c-9b5d-0506a8cd6c28" />
+
+
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+<img width="797" height="118" alt="Screenshot from 2025-08-18 21-19-29" src="https://github.com/user-attachments/assets/5821c4fb-ec44-45cd-ba1f-88f923f98833" />
 
 
 #Sorting File content
