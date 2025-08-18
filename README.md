@@ -421,12 +421,16 @@ www. google. com
 www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
- ## OUTPUT
+## OUTPUT
+<img width="891" height="110" alt="Screenshot from 2025-08-18 22-22-01" src="https://github.com/user-attachments/assets/fb1189c8-7ec6-4660-8ccb-0921908a15c1" />
+
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="931" height="116" alt="Screenshot from 2025-08-18 22-22-09" src="https://github.com/user-attachments/assets/c51daafa-1903-440a-ba74-257d04e15067" />
+
 
 
 
