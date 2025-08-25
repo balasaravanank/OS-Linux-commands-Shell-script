@@ -1127,7 +1127,9 @@ done
 set +x
 ```
 ## OUTPUT
- ./argshift.sh 1 2 3
+<img width="768" height="580" alt="Screenshot from 2025-08-25 22-00-09" src="https://github.com/user-attachments/assets/540f8b8d-0ff3-48cf-ac54-4a8c3d822c82" />
+
+./argshift.sh 1 2 3
  
  
 cat > nc.awk
