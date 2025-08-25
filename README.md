@@ -973,6 +973,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="737" height="290" alt="Screenshot from 2025-08-25 22-16-03" src="https://github.com/user-attachments/assets/ea1833f8-8360-417c-b6a6-121b90cd30f2" />
+
 
 cat fornested1.sh 
 ```bash
@@ -1008,6 +1010,9 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="745" height="202" alt="Screenshot from 2025-08-25 22-14-54" src="https://github.com/user-attachments/assets/c3c67691-1ce5-461f-b834-c2e5f4f98936" />
+
+
 
 $ chmod 755 forbreak.sh
  
@@ -1033,6 +1038,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+<img width="657" height="235" alt="Screenshot from 2025-08-25 22-13-16" src="https://github.com/user-attachments/assets/e0b70419-0319-4228-aafe-af83d849a625" />
+
+
  
 cat exread.sh 
 ```bash
@@ -1047,6 +1055,9 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="731" height="130" alt="Screenshot from 2025-08-25 22-08-54" src="https://github.com/user-attachments/assets/1213cbc8-47ea-46d3-8148-4cd5efb01d46" />
+
+
 
 
  cat exread1.sh
@@ -1059,6 +1070,8 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="731" height="130" alt="Screenshot from 2025-08-25 22-08-54" src="https://github.com/user-attachments/assets/504bb469-6f37-40d7-996a-52b02a9c266b" />
+
 
 
 
