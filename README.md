@@ -993,6 +993,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ <img width="703" height="91" alt="Screenshot from 2025-08-25 22-19-10" src="https://github.com/user-attachments/assets/72ce7d27-3299-4007-8db7-51c4584638b3" />
+
 
  
 cat forbreak.sh 
