@@ -469,6 +469,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="1057" height="178" alt="Screenshot from 2025-08-25 20-30-26" src="https://github.com/user-attachments/assets/00f33f4b-14e7-43e2-b1fe-ff133481fa9a" />
+
 
  
 cat << stop > herecheck.txt
@@ -481,6 +483,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="1043" height="443" alt="Screenshot from 2025-08-25 20-34-42" src="https://github.com/user-attachments/assets/6db8c257-5429-40f3-8b74-98b18ee0f528" />
+
 
 
 cat < scriptest.sh 
@@ -519,23 +523,34 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="905" height="682" alt="Screenshot from 2025-08-25 20-36-11" src="https://github.com/user-attachments/assets/32365a2a-f91e-481b-b031-d1a2e88bf57d" />
+
 
  
 ls file1
 ## OUTPUT
+<img width="1146" height="102" alt="Screenshot from 2025-08-25 20-39-32" src="https://github.com/user-attachments/assets/2f2af5cc-3951-4d20-ab76-25859de2db6b" />
+
 
 echo $?
 ## OUTPUT 
+<img width="1146" height="102" alt="Screenshot from 2025-08-25 20-39-38" src="https://github.com/user-attachments/assets/0265f726-6dd1-47e0-832e-f887ace63dc4" />
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+<img width="1146" height="102" alt="Screenshot from 2025-08-25 20-39-48" src="https://github.com/user-attachments/assets/f6464aaa-68b4-43f6-9adc-dc792b42379e" />
+
 abcd
  
 echo $?
  ## OUTPUT
+ <img width="1095" height="387" alt="Screenshot from 2025-08-25 20-39-55" src="https://github.com/user-attachments/assets/49688046-e87f-42eb-b427-6d8962e8b6aa" />
+
+ 
 
 
  
