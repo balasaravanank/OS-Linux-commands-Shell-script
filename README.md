@@ -547,8 +547,8 @@ echo $?
 abcd
  
 echo $?
- ## OUTPUT
- <img width="1095" height="387" alt="Screenshot from 2025-08-25 20-39-55" src="https://github.com/user-attachments/assets/49688046-e87f-42eb-b427-6d8962e8b6aa" />
+## OUTPUT
+<img width="1095" height="387" alt="Screenshot from 2025-08-25 20-39-55" src="https://github.com/user-attachments/assets/49688046-e87f-42eb-b427-6d8962e8b6aa" />
 
  
 
