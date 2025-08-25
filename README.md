@@ -1185,7 +1185,9 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT 
+## OUTPUT
+<img width="732" height="160" alt="Screenshot from 2025-08-25 21-50-13" src="https://github.com/user-attachments/assets/58fecd3b-6e12-4eed-a7a0-e82f4f14746f" />
+
 
 
 # RESULT:
