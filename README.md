@@ -582,14 +582,13 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
-
-
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="726" height="108" alt="Screenshot from 2025-08-25 20-46-29" src="https://github.com/user-attachments/assets/6a4be638-d1ea-483e-8a0e-f5aa4a4c909f" />
+
 
 
 # check file ownership
@@ -617,6 +616,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="1140" height="103" alt="Screenshot from 2025-08-25 20-48-11" src="https://github.com/user-attachments/assets/a194c04e-ec98-4fc9-b00c-5aa8d1af5579" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -663,6 +663,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="1100" height="200" alt="Screenshot from 2025-08-25 20-49-33" src="https://github.com/user-attachments/assets/c1adb19e-957c-4aa4-9f7d-e30218143ef2" />
+
 
 
 
@@ -707,6 +709,9 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="783" height="148" alt="Screenshot from 2025-08-25 20-50-46" src="https://github.com/user-attachments/assets/85f5c55d-3967-44e2-9e2e-d356696c5beb" />
+
+
 
 # check if a file
 cat > ifnested.sh 
@@ -756,6 +761,8 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="1018" height="192" alt="Screenshot from 2025-08-25 20-51-51" src="https://github.com/user-attachments/assets/313afddd-69b3-4301-bebc-94df7a3c74e1" />
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -784,6 +791,8 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="1018" height="100" alt="Screenshot from 2025-08-25 20-53-30" src="https://github.com/user-attachments/assets/9e407133-224b-44d0-91bc-268958a18c43" />
+
 
 
 # testing compound comparisons
@@ -800,6 +809,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
 
 # using the case command
 cat >casecheck.sh 
