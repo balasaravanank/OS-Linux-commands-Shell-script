@@ -809,6 +809,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="735" height="93" alt="Screenshot from 2025-08-25 21-38-47" src="https://github.com/user-attachments/assets/67a534df-bbc5-4372-a915-752f63a819a6" />
+
+
 
 
 # using the case command
@@ -921,6 +924,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
