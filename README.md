@@ -662,10 +662,9 @@ fi
 ```
 
 ./ifnested.sh 
+
 ## OUTPUT
 <img width="1100" height="200" alt="Screenshot from 2025-08-25 20-49-33" src="https://github.com/user-attachments/assets/c1adb19e-957c-4aa4-9f7d-e30218143ef2" />
-
-
 
 
 # using numeric test comparisons
@@ -708,6 +707,7 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
 ##OUTPUT
 <img width="783" height="148" alt="Screenshot from 2025-08-25 20-50-46" src="https://github.com/user-attachments/assets/85f5c55d-3967-44e2-9e2e-d356696c5beb" />
 
