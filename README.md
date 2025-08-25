@@ -1097,6 +1097,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1114,6 +1116,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="736" height="195" alt="Screenshot from 2025-08-25 22-03-35" src="https://github.com/user-attachments/assets/d158c305-f2eb-477a-b63c-72fc85c6eec3" />
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
