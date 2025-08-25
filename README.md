@@ -1097,6 +1097,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="743" height="168" alt="Screenshot from 2025-08-25 22-05-19" src="https://github.com/user-attachments/assets/18c9f57b-d131-428d-a454-f90ea7004246" />
+
 
 
 $ ./argshift.sh 1 2 3
