@@ -1159,6 +1159,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+<img width="767" height="546" alt="Screenshot from 2025-08-25 21-56-41" src="https://github.com/user-attachments/assets/de5a3b40-1a70-4a15-9aae-c847f4873994" />
+
  
 cat > palindrome.sh
 ```bash
