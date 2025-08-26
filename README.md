@@ -868,6 +868,11 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+## OUTPUT
+<img width="852" height="235" alt="Screenshot from 2025-08-26 10-57-21" src="https://github.com/user-attachments/assets/a15bc0fa-9a07-4738-a837-df86d2fb7990" />
+
+$ ./untiltest.sh
+
  
  
  
@@ -882,8 +887,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+## OUTPUT
+<img width="791" height="321" alt="Screenshot from 2025-08-26 11-08-02" src="https://github.com/user-attachments/assets/fa31080e-822a-4d59-b21f-ffc4babf23ef" />
+
+$ ./forin1.sh
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -895,19 +903,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
+## OUTPUT
+<img width="1182" height="272" alt="Screenshot from 2025-08-26 11-13-02" src="https://github.com/user-attachments/assets/914c359e-74e0-4dc2-8709-068f3291d145" />
+
+$ ./forin2.sh
  
 cat forin3.sh 
 ```bash
@@ -918,20 +917,12 @@ do
 echo "word:$test"
 done
 ```
+$ chmod 755 forin3.sh
+## OUTPUT
+<img width="791" height="321" alt="Screenshot from 2025-08-26 11-11-04" src="https://github.com/user-attachments/assets/96fd3df6-5398-4878-a25a-b8e4697f23f3" />
+
 $ ./forin3.sh 
  
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
-
-## OUTPUT
 
 cat forinfile.sh 
 ```bash
@@ -954,6 +945,8 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="883" height="423" alt="Screenshot from 2025-08-26 11-21-50" src="https://github.com/user-attachments/assets/d0de63cd-b70e-4c32-bf2e-0ccaaa72e32d" />
+
 
 
 cat forctype.sh 
@@ -968,6 +961,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="1041" height="392" alt="Screenshot from 2025-08-26 11-23-10" src="https://github.com/user-attachments/assets/c2864ed6-674e-44cd-9962-6ef0b66fd84a" />
+
 
 cat forctype1.sh 
 ```bash
