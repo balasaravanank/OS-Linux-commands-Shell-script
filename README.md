@@ -1095,10 +1095,12 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
-
  
- ./funcex.sh 1 2
+<img width="762" height="104" alt="Screenshot from 2025-08-26 10-45-07" src="https://github.com/user-attachments/assets/23344a66-164b-4fd0-ad51-cc61dea91eb7" />
+./funcex.sh
+
+<img width="749" height="111" alt="Screenshot from 2025-08-26 10-45-25" src="https://github.com/user-attachments/assets/448ec3b8-52f2-4acc-8447-a51067752380" />
+./funcex.sh 1 2
 
  
 cat argshift.sh
