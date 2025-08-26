@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="1720" height="543" alt="Screenshot from 2025-08-26 11-34-19" src="https://github.com/user-attachments/assets/ad9d615d-fb0f-4ad8-be11-774f8444034b" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -438,6 +438,8 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="1720" height="543" alt="Screenshot from 2025-08-26 11-37-03" src="https://github.com/user-attachments/assets/55d96eea-4c60-462c-a7c9-388dbb46fefd" />
+
 
 mkdir backupdir
  
@@ -447,18 +449,13 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="1513" height="547" alt="Screenshot from 2025-08-26 11-33-33" src="https://github.com/user-attachments/assets/276d273f-64a2-4fc5-831e-fa09d7038229" />
 
 
-tar -xvf backup.tar
-## OUTPUT
-
-gzip backup.tar
-
-ls .gz
-## OUTPUT
  
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="1720" height="543" alt="Screenshot from 2025-08-26 11-34-19" src="https://github.com/user-attachments/assets/db5c86c5-83a8-47a5-832a-cb17bebdedc0" />
 
  
 # Shell Script
