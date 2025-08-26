@@ -830,7 +830,10 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 $ chmod 755 casecheck.sh 
- 
+
+## OUTPUT
+<img width="750" height="106" alt="Screenshot from 2025-08-26 10-54-13" src="https://github.com/user-attachments/assets/248f803d-f13c-4982-9f53-2c278e2d6aa8" />
+
 $ ./casecheck.sh 
  
 cat > whiletest
@@ -845,7 +848,12 @@ var1=$[ $var1 - 1 ]
 done
 ```
 $ chmod 755 whiletest.sh
- 
+
+## OUTPUT
+<img width="780" height="492" alt="Screenshot from 2025-08-26 10-55-28" src="https://github.com/user-attachments/assets/79726f7f-8b05-43fb-bdc9-189082503374" />
+
+
+
 $ ./whiletest.sh
  
  
